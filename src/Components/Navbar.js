@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} >
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -21,7 +21,7 @@ function Navbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h4"  component="div" sx={{ flexGrow: 2 }}>
+          <Typography variant="h4" style={{color:"#ffc107"}} component="div" sx={{ flexGrow: 2 }}>
             TodoManic
           </Typography>
          
