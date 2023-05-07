@@ -21,8 +21,8 @@ function Navbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-            TodoList
+          <Typography variant="h4"  component="div" sx={{ flexGrow: 2 }}>
+            TodoManic
           </Typography>
          
         </Toolbar>
