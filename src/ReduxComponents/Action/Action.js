@@ -4,3 +4,9 @@ export const Add=(items)=>{
         payload:items
     }
 }
+export const Remove=(id)=>{
+    return {
+        type: "RMV_Data",
+        payload:id
+    }
+}
