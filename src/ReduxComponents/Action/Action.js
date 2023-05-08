@@ -10,3 +10,11 @@ export const Remove=(id)=>{
         payload:id
     }
 }
+
+export const Update=(items,id)=>{
+    return {
+        type: "Update_Data",
+        payload:items,
+        val:id
+    }
+}

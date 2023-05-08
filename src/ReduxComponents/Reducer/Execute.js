@@ -16,6 +16,12 @@ export const reducersfile=(state=InitialState,action)=>{
                 Input_Data:dlt
             }
         
+            case "Update_Data": 
+            const updateData= state.Input_Data.map((CElem,i)=>i===action.val?action.payload:CElem)
+              return {
+                ...state,
+                Input_Data: updateData
+              }
         default: return state
     }
 }
